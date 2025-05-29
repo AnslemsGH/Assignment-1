@@ -20,7 +20,7 @@ namespace Assignment_1.Controllers
         /// <example>
         /// GET api/q2/greeting?name=Anslem
         /// </example>
-        [HttpGet("greeting")]
+        [HttpGet(template: "greeting")]
         public string Greeting([FromQuery] string name)
         {
             return $"Hi {name}!";
