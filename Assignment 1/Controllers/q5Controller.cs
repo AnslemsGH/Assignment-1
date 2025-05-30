@@ -21,7 +21,7 @@ namespace Assignment_1.Controllers
         /// </example>
         [HttpPost(template: "secret")]
 
-        public string Secret([FromBody] string code)
+        public string Secret([FromForm] string code)
         {
             string Message = "Shh..the secret is " + code.ToString();
             return Message;
