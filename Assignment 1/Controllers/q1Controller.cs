@@ -14,7 +14,7 @@ namespace Assignment_1.Controllers
         /// Welcomes the user
         /// </returns>
         /// <example>
-        /// 
+        /// https://localhost:xx/api/q1/welcome -> Welcome to 5125!
         /// </example>
         [HttpGet(template: "welcome")]
         public string Welcome()
