@@ -16,8 +16,8 @@ namespace Assignment_1.Controllers
         /// <example>
         /// 
         /// </example>
-        [HttpGet("welcome")]
-        public string Get()
+        [HttpGet(template: "welcome")]
+        public string Welcome()
         {
             return "Welcome to 5125!";
         }

@@ -15,10 +15,10 @@ namespace Assignment_1.Controllers
         /// It welcomes a user by their name
         /// </returns>
         /// <example>
-        /// GET api/q2/greeting?name=Gary
+        /// GET api/q2/greeting?name=Gary -> Hi Gary!
         /// </example>
         /// <example>
-        /// GET api/q2/greeting?name=Anslem
+        /// GET api/q2/greeting?name=Anslem -> Hi Gary!
         /// </example>
         [HttpGet(template: "greeting")]
         public string Greeting([FromQuery] string name)
