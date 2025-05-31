@@ -14,7 +14,8 @@ namespace Assignment_1.Controllers
         /// <returns>
         /// The cube of a value
         /// </returns>
-        /// <example> api/q3/cube?cube=10 -> 1000</example>
+        /// <example> api/q3/cube?cube=10 -> 1000
+        /// </example>
         [HttpGet(template: "cube")]
 
      public string Cube(int cube)
